@@ -103,7 +103,7 @@ df2.columns=['ARSON' ,'ASSAULT' ,'BAD CHECKS', 'BRIBERY' ,'BURGLARY' ,'DISORDERL
 'SUICIDE', 'SUSPICIOUS OCC', 'TREA','TRESPASS', 'VANDALISM' ,'VEHICLE THEFT',
 'WARRANTS', 'WEAPON LAWS']
 df2.insert(0,'Id',X_test['Id'])
-df2.to_csv('2015A7PS0029G.csv',index_label=False,index=False)
+df2.to_csv('result.csv',index_label=False,index=False)
 
 
 
